@@ -1,3 +1,3 @@
 class ApplicationController < ActionController::API
-  include Reponse
+  include Response
 end
