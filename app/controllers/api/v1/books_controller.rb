@@ -1,8 +1,7 @@
 class Api::V1::BooksController < ApplicationController
-  before_acion :load_book, only: :show
+  before_action :load_book, only: :show
 
   def index
-    put "========================================="
     @books = Book.all
     json_response "Index books Successfully", true, {books: @books}, :ok
   end
