@@ -22,3 +22,4 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+* user gem "koala", "~> 3.0.0" for login  facebook
