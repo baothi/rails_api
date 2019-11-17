@@ -21,6 +21,7 @@ gem 'devise'
 gem 'simple_token_authentication', '~> 1.0'
 gem "koala", "~> 3.0.0"
 gem "faker"
+gem "active_model_serializers","~> 0.10.0"
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
